@@ -43,3 +43,16 @@ a,
     font-weight: bolder;
     color: #f9faf8;
 }
+button {
+    background: #3882f6;
+    color: #f9faf8;
+    padding: 8px 14px;
+    width: 180px;
+    border-radius: 6px;
+    border: hidden;
+    font-size: 18px;
+}
+img {
+    height: 300px;
+    padding-left: 24px;
+}
