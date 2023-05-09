@@ -25,4 +25,22 @@ a {
 .text{
     font-size: 18px;
     color: #f9faf8;
+    font-weight: normal;
+}
+.main {
+    display: flex;
+    flex-direction: column;
+}
+.container {
+    display: flex;
+    padding-top: 48px;
+}
+img {
+    height: 300px;
+    padding-left: 24px;
+}
+.header,
+.container {
+    padding-left: 100px;
+    padding-right: 100px;
 }
