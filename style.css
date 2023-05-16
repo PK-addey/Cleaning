@@ -1,3 +1,9 @@
+.all {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+}
 ul {
     list-style: none;
     padding: 0;
@@ -12,6 +18,8 @@ a {
     background: #1f2937;
     display: flex;
     flex-direction: column;
+    padding: 0;
+    margin: 0;
 }
 .header {
     display: flex;
@@ -72,11 +80,69 @@ img {
     justify-content: space-between;
 }
 .image {
-    border: 4px solid #2e75e7;
-    width: 225px;
-    height: 225;
+    
+    width: 300px;
+    height: 250px;
     border-radius: 16px;
 }
 .activity {
     padding: 24px;
+}
+.clients {
+    background: #e5e7eb;
+    color: #1f2937;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+    justify-content: center;
+    padding: 36px 300px;
+
+}
+.bold {
+    font-size: 36px;
+    font-weight: bold;
+}
+.italize {
+    font-size: 36px;
+    font-style: italic;
+}
+.client {
+    padding: 16px;
+    text-align: right;
+    font-size: 36px;
+    font-weight: bold;
+}
+.box {
+    background: #3882f6;
+    border-radius: 8px;
+    color: #e5e7eb;
+    display: flex;
+    justify-content: space-between;
+    padding: 36px 52px;
+    margin: 54px 200px;
+}
+.book {
+    font-size: 24px;
+    font-weight: bold;
+}
+.sign {
+    font-size: 16px;
+    font-weight: normal;
+}
+.signup {
+    border: 2px solid #f9faf8;
+    width: 120px;
+    font-size: 16px;
+    border-radius: 8px;
+    padding: 4px;
+    display: inline-block;
+}
+.footer {
+    background: #1f2937;
+    display: flex;
+    justify-content: center;
+    padding: 36px;
+    color: #e5e7eb;
+    font-size: 18px;
 }
